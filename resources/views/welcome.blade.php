@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Akbar
+                    Akbar02as
                 </div>
 
                 <div class="links">
