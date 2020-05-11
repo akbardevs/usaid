@@ -4,7 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< HEAD
+        <title>Laravel23</title>
+=======
         <title>Laravel</title>
+>>>>>>> 530ce71d317d4bfa24cc78cc35f965b146bb2aa0
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
