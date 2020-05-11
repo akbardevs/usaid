@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel 500
+                    Laravel 5000
                 </div>
 
                 <div class="links">
