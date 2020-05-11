@@ -81,11 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-<<<<<<< HEAD
-                    Laravel 5000
-=======
                     Riswan
->>>>>>> 3268fd6c620a786ca9b52e2814285621df28e39c
                 </div>
 
                 <div class="links">
