@@ -119,7 +119,8 @@ class CategoryController extends Controller
 
     public function apiCategories()
     {
-        $categories = Category::all();
+        // $categories = Category::all()->make(true);
+        $categories = Category::select('id', 'Type');
 
         return Datatables::of($categories)
             ->addColumn('action', function($categories){
