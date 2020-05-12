@@ -81,7 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Akbar02as
+
+                    Laravel
+
                 </div>
 
                 <div class="links">
