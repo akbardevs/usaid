@@ -28,7 +28,6 @@
                     <th>ID</th>
                     <th>Golongan Darah</th>
                     <th>Jumlah Stok</th>
-                    <th>Terpakai</th>
                     <th>Action</th>
                 </tr>
                 </thead>
@@ -73,7 +72,8 @@
             columns: [
                 {data: 'id', Type: 'id'},
                 {data: 'Type', Type: 'Type'},
-                {data: 'action', name: 'action', orderable: false, searchable: false}
+                {data: 'Stok', Type: 'Stok',
+                {data: 'action', name: 'action',  orderable: false, searchable: false}
             ]
         });
 
