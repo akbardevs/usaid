@@ -165,7 +165,11 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Yajra\DataTables\DataTablesServiceProvider::class,
+        //Collective\Html\HtmlServiceProvider::class,
+        //Barryvdh\DomPDF\ServiceProvider::class,
+        //Maatwebsite\Excel\ExcelServiceProvider::class,
+        //UxWeb\SweetAlert\SweetAlertServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -229,6 +233,13 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
+<<<<<<< HEAD
+=======
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
+        'PDF' => Barryvdh\DomPDF\Facade::class,
+        'Alert' => UxWeb\SweetAlert\SweetAlert::class,
+>>>>>>> 50ff5d3ff8382ee1258950a3e789e1e5c6256196
 
     ],
 
