@@ -10,11 +10,11 @@
     <div class="box">
 
         <div class="box-header">
-            <h3 class="box-title">Data Categories</h3>
+            <h3 class="box-title">Data Golongan Darah</h3>
         </div>
 
         <div class="box-header">
-            <a onclick="addForm()" class="btn btn-primary" >Add Categories</a>
+           <a onclick="addForm()" class="btn btn-primary" > <i class="ion ion-plus"></i>   Golongan Darah</a>
             <a href="{{ route('exportPDF.categoriesAll') }}" class="btn btn-danger">Export PDF</a>
             <a href="{{ route('exportExcel.categoriesAll') }}" class="btn btn-success">Export Excel</a>
         </div>
@@ -27,6 +27,7 @@
                 <tr>
                     <th>ID</th>
                     <th>Golongan Darah</th>
+                    <th>Jumlah Stok</th>
                     <th>Action</th>
                 </tr>
                 </thead>
@@ -71,7 +72,8 @@
             columns: [
                 {data: 'id', Type: 'id'},
                 {data: 'Type', Type: 'Type'},
-                {data: 'action', name: 'action', orderable: false, searchable: false}
+                {data: 'Stok', Type: 'Stok',
+                {data: 'action', name: 'action',  orderable: false, searchable: false}
             ]
         });
 
