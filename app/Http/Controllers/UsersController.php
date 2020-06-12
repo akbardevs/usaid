@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\User;
-use Yajra\DataTables\Contracts\DataTable;
-use RealRashid\SweetAlert\Facades\Alert;
-use Illuminate\Support\Facades\Hash;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use Illuminate\Support\MessageBag;
-use Redirect,Response;
+use Illuminate\Support\Facades\Hash;
+use RealRashid\SweetAlert\Facades\Alert;
+use Yajra\DataTables\Contracts\DataTable;
 
 class UsersController extends Controller
 {
