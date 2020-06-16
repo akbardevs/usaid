@@ -18,5 +18,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('users', 'ApiUser@index');
+Route::get('users2', 'ApiUser@select');
 Route::post('adduser', 'ApiUser@create');
+Route::post('cek', 'ApiUser@CekLogin');
+Route::post('provinsi', 'ApiUser@provinsi');
+Route::post('edit', 'ApiUser@profilEdit');
+Route::post('inputFoto', 'ApiUser@Foto');
+Route::post('liat', 'ApiUser@selectAll');
 Route::delete('/user/{id}', 'ApiUser@delete');
